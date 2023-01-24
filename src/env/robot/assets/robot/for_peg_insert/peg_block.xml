@@ -1,0 +1,21 @@
+<mujocoinclude>
+    <body childclass="peg_block_base">
+      <geom material="peg_block_red" mesh="block_inner2" pos="-0.09 -0.1 0.0"/>
+      <geom material="peg_block_wood" mesh="block_outer" pos="0 0 0.1"/>
+
+      <geom class="peg_block_col" pos="0 0 0.195" size="0.09 0.1 0.005" type="box" material="block_mat" density="50000" condim="4" friction="1 1 1" solimp="1 1 1" solref="0.02 1"></geom>/>
+      <geom class="peg_block_col" pos="0 0 0.045" size="0.09 0.096 0.04" type="box"  material="block_mat" density="50000" condim="4" friction="1 1 1" solimp="1 1 1" solref="0.02 1"></geom>/>
+      <geom class="peg_block_col" pos="0.06 0 0.13" size="0.015 0.096 0.02" type="box"  material="block_mat" density="50000" condim="4" friction="1 1 1" solimp="1 1 1" solref="0.02 1"></geom>/>
+      <geom class="peg_block_col" pos="0.06 0 0.13" size="0.02 0.096 0.02" type="box"  material="block_mat" density="50000" condim="4" friction="1 1 1" solimp="1 1 1" solref="0.02 1"></geom>/>
+      <geom class="peg_block_col" pos="0 0 0.175" size="0.09 0.096 0.02" type="box"  material="block_mat" density="50000" condim="4" friction="1 1 1" solimp="1 1 1" solref="0.02 1"></geom>/>
+      <geom class="peg_block_col" pos="0.095 0 0.1" size="0.005 0.1 0.1" type="box"  material="block_mat" density="50000" condim="4" friction="1 1 1" solimp="1 1 1" solref="0.02 1"></geom>/>
+      <geom class="peg_block_col" pos="-0.095 0 0.1" size="0.005 0.1 0.1" type="box" material="block_mat" density="50000" condim="4" friction="1 1 1" solimp="1 1 1" solref="0.02 1"></geom>/>
+
+      <site name="hole" pos="0 -.096 0.13" size="0.01" rgba="0 0.8 0 0"/>
+      <site name="goal" pos="0 -.006 0.13" size="0.01" rgba="0 1 0 1"/>
+      <site name="bottom_right_corner_collision_box_1" pos="0.1 -0.11 0.01" size="0.0001"/>
+      <site name="top_left_corner_collision_box_1" pos="-0.1 -.15 0.096" size="0.0001"/>
+      <site name="bottom_right_corner_collision_box_2" pos="0.1 -0.11 0.16" size="0.0001"/>
+      <site name="top_left_corner_collision_box_2" pos="-0.1 -.17 0.19" size="0.0001"/>
+    </body>
+</mujocoinclude>
